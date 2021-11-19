@@ -58,3 +58,10 @@ switch(today){
     console.log("pas un jour comme les autres");
     break;
 }
+
+/// coonditiond ternaires plus simpel
+
+const name = "Paul"
+const Age = 30
+
+name === "Paul" && Age === 30 ? console.log("bienvenue") : console.log("go away ");
