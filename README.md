@@ -27,3 +27,34 @@ if(userName === "Bob" || userName === "Paul") {
 if(userName === "Paul" && userPassword === "secret") {
   console.log("welcome too")
 }
+
+// siwth jour de la semaine 
+
+const today = new Date().getDay();
+
+switch(today){
+  case 0:
+    console.log("it's sunday");
+    break;
+  case 1:
+    console.log("it's Monday");
+    break;
+  case 2:
+    console.log("it's tusday");
+    break;
+  case 3:
+    console.log("it's wensday");
+    break;
+  case 4:
+    console.log("it's thiday");
+    break;
+  case 5:
+    console.log("it's fryday");
+    break;
+  case 6:
+    console.log("it's Saturday");
+    break;
+  default:
+    console.log("pas un jour comme les autres");
+    break;
+}
