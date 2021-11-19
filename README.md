@@ -65,3 +65,11 @@ const name = "Paul"
 const Age = 30
 
 name === "Paul" && Age === 30 ? console.log("bienvenue") : console.log("go away ");
+
+const animal = {
+  name: "Lucky", 
+  species: "Cat", 
+  age: "3",
+}
+
+animal.name === "Lucky" ? console.log("bienvenue ") : console.log("go away ")
