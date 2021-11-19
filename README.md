@@ -1,4 +1,4 @@
-# CalculeSimpleAgeNameJS
+# Conditions
 
 const userName = prompt("quelle st ton nim")
 
