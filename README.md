@@ -14,3 +14,16 @@ if (userName === "Bob") {
 else{
   console.log("go away ")
 }
+
+
+/// Name et passwoard 
+
+const userName = "Paul";
+const userPassword = "secret";
+
+if(userName === "Bob" || userName === "Paul") {
+  console.log("welcome")
+}
+if(userName === "Paul" && userPassword === "secret") {
+  console.log("welcome too")
+}
